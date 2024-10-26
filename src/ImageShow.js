@@ -1,6 +1,6 @@
-function ImageShow (){
+function ImageShow ({image}){
     return <div>
-        Image Show 
+        {image.id} 
     </div>
 }
 export default ImageShow
