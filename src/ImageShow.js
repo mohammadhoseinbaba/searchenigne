@@ -1,6 +1,6 @@
 function ImageShow ({image}){
     return <div>
-        {image.id} 
+        <img src={image.src.small} alt={image.alt}/>
     </div>
 }
 export default ImageShow
